@@ -21,6 +21,7 @@
 *.app/
 lib/
 backup/
+*/project1
 
 # IDE specific
 /.idea/
