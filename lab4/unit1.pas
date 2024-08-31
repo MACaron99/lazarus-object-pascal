@@ -16,14 +16,8 @@ type
     Title: TButton;
     Artem: TButton;
     procedure FormClick(Sender: TObject);
-    procedure TitleClick(Sender: TObject);
-    procedure ArtemClick(Sender: TObject);
     procedure TitleMouseMove(Sender: TObject; Shift: TShiftState; X, Y: Integer
       );
-  private
-
-  public
-
   end;
 
 var
@@ -47,16 +41,6 @@ begin
   Form.Enabled := false;
 end;
 
-procedure TForm1.TitleClick(Sender: TObject);
-begin
-
-end;
-
-procedure TForm1.ArtemClick(Sender: TObject);
-begin
-
-end;
-
 procedure TForm1.TitleMouseMove(Sender: TObject; Shift: TShiftState; X,
   Y: Integer);
 begin
@@ -64,7 +48,7 @@ begin
   Title.Top := 200;
   Title.Left := Title.Left - 50;
   Title.Font.Color := clRed;
-  Title.Caption := ('We are learning Object Pascal programming language');
+  Title.Caption := 'We are learning Object Pascal programming language';
 end;
 
 end.

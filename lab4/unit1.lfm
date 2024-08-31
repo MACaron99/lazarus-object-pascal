@@ -1,7 +1,7 @@
 object Form1: TForm1
   Left = 566
   Height = 400
-  Top = 135
+  Top = 134
   Width = 500
   Caption = 'Form1'
   ClientHeight = 400
@@ -24,7 +24,6 @@ object Form1: TForm1
     Width = 100
     Caption = 'Title'
     TabOrder = 1
-    OnClick = TitleClick
     OnMouseMove = TitleMouseMove
   end
   object Artem: TButton
@@ -34,6 +33,5 @@ object Form1: TForm1
     Width = 120
     Caption = 'Artem'
     TabOrder = 2
-    OnClick = ArtemClick
   end
 end
