@@ -19,8 +19,8 @@
 *.dmg
 *.pkg
 *.app/
-/lib/
-/backup/
+lib/
+backup/
 
 # IDE specific
 /.idea/
