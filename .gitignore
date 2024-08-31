@@ -15,6 +15,12 @@
 /*.out
 /*.dmg
 /*.app
+*.app/
+*.dmg
+*.pkg
+*.app/
+/lib/
+/backup/
 
 # IDE specific
 /.idea/
