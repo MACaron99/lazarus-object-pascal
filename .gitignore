@@ -1,0 +1,51 @@
+# Lazarus IDE
+*.bak
+*.dcu
+*.o
+*.ppu
+*.~*
+*.dsk
+*.gdb
+*.map
+
+# Build output
+/bin/
+/obj/
+/*.exe
+/*.out
+/*.dmg
+/*.app
+
+# IDE specific
+/.idea/
+/*.suo
+/*.user
+/*.suo
+/*.userosscache
+/.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Log files
+*.log
+*.log.*
+*.tmp
+
+# Additional ignored files
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.gz
+*.bak
+*.swp
+*.swo
+*.tmp
+*.old
